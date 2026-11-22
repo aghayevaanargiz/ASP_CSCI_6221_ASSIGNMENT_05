@@ -5,3 +5,6 @@ main = do
 
 firstElimination arr =
     [element | (pos, element) <- zip [1..] arr, pos `mod` 2 /= 0]
+
+secondElimination arr = 
+    [element | (pos, element) <- zip [1..] arr, pos `mod` 2 == 0]
