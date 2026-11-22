@@ -36,18 +36,13 @@ The implementation was intentionally kept straightforward, focusing on the funda
 
 ## Submission Results
 
-Both implementations achieved a score of **97/100** on e-Olymp.
+Both implementations achieved a score of **97/100** on e-Olymp. 
 
 | Language | Submission Result |
 |---|---:|
 | C++ | 97/100 |
 | Haskell | 97/100 |
 
-## Tools and Platforms
-
-1. Visual Studio Code
-2. Git and GitHub
-3. e-Olymp Online Judge
 
 ## Technical Comparison
 
