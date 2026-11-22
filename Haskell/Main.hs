@@ -12,5 +12,6 @@ secondElimination arr =
 thirdElimination arr = 
     [element | (pos, element) <- zip [1..] arr, pos `mod` 3 /= 0]
 
+remove [x] = x
 remove arr =
     remove (thirdElimination (secondElimination (firstElimination arr)))
